@@ -1,0 +1,36 @@
+/* Font */
+.azeret-mono {
+    font-family: "Azeret Mono", monospace;
+    font-optical-sizing: auto;
+    font-style: normal;
+  }
+
+/* header styles */
+.banner-container{
+    background-image: url(../assets/Hero-bg.png);
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 26px 221px 45px;
+}
+.banner-title{
+    font-size: 48px;
+    font-weight: bolder;
+}
+.contact-btn{
+    color: white;
+    background-color: black;
+    width: 244px;
+    height: 65px;
+    border-radius: 8px;
+    font-size: 20px;
+}
+
+/* Web Development info section  */
+.web-info-container{
+    text-align: center;
+    padding: 74px 150px 90px;
+}
+.web-info{
+    padding: 80px 97px;
+}
