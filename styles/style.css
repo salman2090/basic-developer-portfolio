@@ -5,7 +5,7 @@
     font-style: normal;
   }
 
-  /* Common Styles */
+/* Common Styles */
   .section-title{
     font-size: 32px;
     font-weight: bolder;
@@ -128,7 +128,7 @@
 .react-container img{
     margin-right: 24px;
     width: 94.78px;
-    height: 100px;
+    height: 92px;
 }
 .node-container{
     display: flex;
@@ -151,4 +151,54 @@
     margin-right: 24px;
     width: 108px;
     height: 108px;
+}
+
+/* Feedback section styles */
+.feedback-container{
+    text-align: center;
+    padding: 64px 48px;
+    color: white;
+    background: 
+        linear-gradient(
+          rgba(0, 0, 0, 0.4), 
+          rgba(0, 0, 0, 0.4)
+        ),
+        /* bottom, image */
+        url(/assets/handshake.jpg);
+    ;
+
+    border: none;
+    border-radius: 16px;
+    overflow: hidden;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 1140px 313px;
+
+}
+.feedback-container background-image{
+    width: 1140px;
+    height: 313px;
+}
+.feedback-input{
+    display: flex;
+    justify-content: center;
+}
+.feedback-input input{
+    font-size: 16px;
+    color: rgba(13, 19, 33, 4);
+    text-align: center;
+    width: 548px;
+    height: 57px;
+    border: none;
+    border-radius: 8px;
+    margin-right: 16px;
+}
+.feedback-input button{
+    background-color: white;
+    font-size: 20px;
+    font-weight: 600;
+    border: none;
+    border-radius: 8px;
+    width: 120px;
+    height: 57px;
 }
