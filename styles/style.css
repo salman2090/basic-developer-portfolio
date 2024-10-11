@@ -202,3 +202,12 @@
     width: 120px;
     height: 57px;
 }
+
+/* Footer Styles */
+footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 38px 150px;
+    background-color: rgba(13, 19, 33, 0.03);
+    margin-top: 80px;
+}
