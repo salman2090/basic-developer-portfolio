@@ -21,6 +21,24 @@
     font-weight: bold;
   }
 /* header styles */
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 35px 150px;
+}
+nav button{
+    background-color: white;
+    font-size: 20px;
+    font-weight: 600;
+    
+    padding: 17px 24px;
+    border: 1px solid #0D1321;
+    border-radius: 8px
+}
+nav button:hover{
+    background-color: rgb(171, 187, 181);
+
+}
 .banner-container{
     background-image: url(../assets/Hero-bg.png);
     display: flex;
