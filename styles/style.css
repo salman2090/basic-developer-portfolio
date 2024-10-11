@@ -9,11 +9,16 @@
   .section-title{
     font-size: 32px;
     font-weight: bolder;
-    margin-bottom: 24px;
+    margin-bottom: 25px;
   }
   .section-text{
     font-size: 16px;
     margin-bottom: 48px;
+  }
+  .learn-link{
+    color: #0D1321;
+    font-size: 16px;
+    font-weight: bold;
   }
 /* header styles */
 .banner-container{
@@ -124,10 +129,14 @@
     display: flex;
     align-items: center;
     padding: 40px;
+    margin-left: 24px;
+    border: 1px solid lightgray;
+    border-radius: 16px;
+    margin-bottom: 24px;
 }
 .react-container img{
     margin-right: 24px;
-    width: 94.78px;
+    width: 80px;
     height: 92px;
 }
 .node-container{
@@ -135,6 +144,9 @@
     align-items: center;
     padding: 40px;
     margin-left: 24px;
+    border: 1px solid lightgray;
+    border-radius: 16px;
+    margin-bottom: 24px;
 }
 .node-container img{
     margin-right: 24px;
@@ -146,6 +158,8 @@
     align-items: center;
     padding: 40px;
     margin-left: 24px;
+    border: 1px solid lightgray;
+    border-radius: 16px;
 }
 .mongodb-container img{
     margin-right: 24px;
