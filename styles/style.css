@@ -5,6 +5,16 @@
     font-style: normal;
   }
 
+  /* Common Styles */
+  .section-title{
+    font-size: 32px;
+    font-weight: bolder;
+    margin-bottom: 24px;
+  }
+  .section-text{
+    font-size: 16px;
+    margin-bottom: 48px;
+  }
 /* header styles */
 .banner-container{
     background-image: url(../assets/Hero-bg.png);
@@ -31,6 +41,78 @@
     text-align: center;
     padding: 74px 150px 90px;
 }
+
 .web-info{
     padding: 80px 97px;
+}
+.web-parts{
+    text-align: start;
+    margin-top: 70px;
+    
+}
+.web-items{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 80px;
+    
+}
+.web-description{
+    padding-right: 100px;
+}
+.web-description-odd{
+    padding-left: 100px;
+}
+
+.web-description button, .web-description-odd button{
+    font-size: 20px;
+    color: #0D1321;
+    opacity: 70%;
+    font-weight: 600;
+    padding: 12px 20px;
+}
+.web-des-title{
+    color: #0D1321;
+    opacity: 70%;
+    font-size: 24px;
+    margin-bottom: 16px;
+}
+.web-des-text{
+    color: #0D1321;
+    opacity: 70%;
+    font-size: 16px;
+    margin-bottom: 32px;
+}
+
+/* Inspiration section styles */
+
+.inspiration-container{
+    text-align: center;
+    margin: 0px 150px 150px;
+}
+
+/* Target section styles */
+.target-container{
+    text-align: center;
+    margin: 150px 150px 50px;
+}
+.current-target{
+    margin-bottom: 111px;
+}
+.tech-container{
+    display: flex;
+    text-align: start;
+}
+.html-container{
+    background-color: rgba(255, 76, 30, 0.07);
+    padding: 40px;
+    margin-right: 24px;
+}
+.css-container{
+    background-color: rgba(0, 76, 232, 0.07);
+    padding: 40px;
+    margin-right: 24px;
+}
+.js-container{
+    background-color: rgba(255, 223, 0, 0.07);
+    padding: 40px;
 }
