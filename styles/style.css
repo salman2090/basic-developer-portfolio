@@ -112,6 +112,9 @@ nav button:hover{
     text-align: center;
     margin: 0px 150px 150px;
 }
+.inspiration-container iframe{
+    border-radius: 16px;
+}
 
 /* Target section styles */
 .target-container{
