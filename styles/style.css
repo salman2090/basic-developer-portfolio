@@ -200,7 +200,7 @@ nav button:hover{
           rgba(0, 0, 0, 0.4)
         ),
         /* bottom, image */
-        url(/assets/handshake.jpg);
+        url(assets/handshake.jpg);
     border: none;
     border-radius: 16px;
     overflow: hidden;
