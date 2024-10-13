@@ -188,6 +188,7 @@ nav button:hover{
 /* Feedback section styles */
 .feedback-container{
     text-align: center;
+    margin: 0 auto;
     padding: 64px 48px;
     color: white;
     background: 
@@ -197,20 +198,19 @@ nav button:hover{
         ),
         /* bottom, image */
         url(/assets/handshake.jpg);
-    ;
-
     border: none;
     border-radius: 16px;
     overflow: hidden;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: 1140px 313px;
-
-}
-.feedback-container background-image{
     width: 1140px;
     height: 313px;
+
 }
+/* .feedback-container background-image{
+    width: 1140px;
+    height: 313px;
+} */
 .feedback-input{
     display: flex;
     justify-content: center;
