@@ -40,7 +40,7 @@ nav button:hover{
 
 }
 .banner-container{
-    background-image: url(/assets/Hero-bg.png);
+    background-image: url(../assets/Hero-bg.png);
     display: flex;
     justify-content: center;
     text-align: center;
@@ -200,7 +200,7 @@ nav button:hover{
           rgba(0, 0, 0, 0.4)
         ),
         /* bottom, image */
-        url(/assets/handshake.jpg);
+        url(../assets/handshake.jpg);
     border: none;
     border-radius: 16px;
     overflow: hidden;
